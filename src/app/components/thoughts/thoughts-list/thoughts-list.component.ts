@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThoughtsListComponent implements OnInit {
 
+  thoughtsList = [ {
+    content: "Espelho espelho meu",
+    authorship: "Ipsum",
+    model: 'model3'
+  },
+  {
+    content: "Espelho meu",
+    authorship: "Ipsum",
+    model: 'model2'
+  }];
+
   constructor() { }
 
   ngOnInit(): void {

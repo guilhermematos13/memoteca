@@ -1,6 +1,11 @@
 <section class="container">
   <header class="header d-flex">
     <h2 class="ff-inter">Meu Mural</h2>
-    <button class="button"> Adicionar Pensamento!</button>
+    <button routerLink="createThoughts" class="button"> Adicionar Pensamento!</button>
   </header>
+  <div class="wall">
+    <div *ngFor="let thought of thoughtsList">
+      <app-card-thoughts [thought]="thought"></app-card-thoughts>
+    </div>
+  </div>
 </section>

@@ -18,4 +18,11 @@ export class CardThoughtsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  widthThoughts(): string {
+    if(this.thought.content.length >= 256) {
+      return 'thought-g'
+    }
+    return 'thought-p'
+  }
+
 }

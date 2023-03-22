@@ -10,8 +10,8 @@ export class CreatThoughtsComponent implements OnInit {
 
   thoughts = {
     id: '1',
-    content: "Aprendendo Angular",
-    authorship: "Dev",
+    content: "",
+    authorship: "",
     model: '',
   }
 

@@ -37,19 +37,22 @@ h2 {
 
 .button {
   background: #154580;
-  color: #ffffff;
+  color:#F8F9FE;
   max-width: 270px;
   width: 250px;
   padding: 1rem;
   margin: 0 auto;
   border: 2px solid #154580;
+  font-size: 1rem;
+  font-weight: bold;
   border-radius: 10px;
-  transition: 0.5s ease;
+
 }
 
 .button:hover {
   border: 2px solid #84EEC1;
-  color: #84EEC1;
+  color: aqua;
+  transition: 0.5s ease;
 }
 
 @media (min-width: 576px) {

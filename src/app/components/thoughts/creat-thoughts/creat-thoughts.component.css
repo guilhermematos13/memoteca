@@ -52,6 +52,7 @@
 .container-radio {
   display: flex;
   gap: 2.5rem;
+  margin-top: 1rem;
   flex-wrap: wrap;
 }
 
@@ -65,6 +66,12 @@
 .model .content {
   margin: 1rem auto;
   word-wrap: break-word;
+}
+
+.preview {
+  margin-top:2rem;
+  color:#000000 !important;
+  font-weight: normal !important;
 }
 
 .model .authorship {

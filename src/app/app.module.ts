@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CreatThoughtsComponent } from './components/thoughts/creat-thoughts/creat-thoughts.component';
+import { FormsModule } from '@angular/forms';
+import { ThoughtsListComponent } from './components/thoughts/thoughts-list/thoughts-list.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { CreatThoughtsComponent } from './components/thoughts/creat-thoughts/cre
     HeaderComponent,
     FooterComponent,
     CreatThoughtsComponent,
+    ThoughtsListComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

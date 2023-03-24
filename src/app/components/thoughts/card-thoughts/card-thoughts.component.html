@@ -3,7 +3,7 @@
   <p class="content"> {{thought.content}} </p>
   <p class="authorship"> {{thought.authorship}}</p>
   <div class="actions">
-    <button class="edit-button">
+    <button class="edit-button" routerLink="thoughts/editThoughts/{{thought.id}}">
       <img src="../../../../assets/images/icone-editar.png" alt="">
     </button>
     <button class="delete-button" routerLink="thoughts/deleteThoughts/{{thought.id}}">

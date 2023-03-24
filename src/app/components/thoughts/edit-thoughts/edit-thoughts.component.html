@@ -1,0 +1,98 @@
+<section class="container edit-thoughts ff-inter">
+  <header class="header">
+    <h2>Adicione um <br>pensamento novo:</h2>
+  </header>
+  <form>
+    <label for="thoughts">Pensamento</label>
+      <input
+        type="textarea"
+        class="input"
+        id="thoughts"
+        name="thoughts"
+        placeholder="Digite um pensamento"
+        [(ngModel)]="thoughts.content"
+      />
+
+    <label for="authorship">Autoria ou fonte</label>
+    <input
+      type="textarea"
+      class="input"
+      id="authorship"
+      name="authorship"
+      placeholder="Digite o autoria ou a fonte"
+      [(ngModel)]="thoughts.authorship"
+    />
+    <label for="model">Selecione o modelo do card:</label>
+    <div class="container-radio">
+      <div class="radio-model">
+        <label for="model1">
+          <input
+            type="radio"
+            id="model1"
+            value="model1"
+            name="model-card"
+            [(ngModel)]="thoughts.model"
+          >
+          <div class="custom-radio">
+            <span></span>
+          </div>
+          <span>Modelo 1</span>
+        </label>
+        <label class="preview">Prévia:</label>
+        <div class="model model1 ff-roboto-mono">
+          <img src="../../../../assets/images/model1.png" alt=""/>
+          <p class="content">{{thoughts.content}}</p>
+          <p class="authorship">{{thoughts.authorship}}</p>
+        </div>
+      </div>
+
+      <div class="radio-model">
+        <label for="model2">
+          <input
+            type="radio"
+            id="model2"
+            value="model2"
+            name="model-card"
+            [(ngModel)]="thoughts.model"
+          >
+          <div class="custom-radio">
+            <span></span>
+          </div>
+          <span>Modelo 2</span>
+        </label>
+        <label class="preview">Prévia:</label>
+        <div class="model model2 ff-roboto-mono">
+          <img src="../../../../assets/images/model2.png" alt=""/>
+          <p class="content">{{thoughts.content}}</p>
+          <p class="authorship">{{thoughts.authorship}}</p>
+        </div>
+      </div>
+
+      <div class="radio-model">
+        <label for="model3">
+          <input
+            type="radio"
+            id="model3"
+            value="model3"
+            name="model-card"
+            [(ngModel)]="thoughts.model"
+          >
+          <div class="custom-radio">
+            <span></span>
+          </div>
+          <span>Modelo 3</span>
+        </label>
+        <label class="preview">Prévia:</label>
+        <div class="model model3 ff-roboto-mono">
+          <img src="../../../../assets/images/model3.png" alt=""/>
+          <p class="content">{{thoughts.content}}</p>
+          <p class="authorship">{{thoughts.authorship}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="actions">
+      <button (click)="editThoughts()" class="button">Salvar</button>
+      <button (click)="cancelButton()" class="button">Cancelar</button>
+    </div>
+  </form>
+</section>

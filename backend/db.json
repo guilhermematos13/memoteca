@@ -17,18 +17,6 @@
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum, sem ac volutpat scelerisque, nisi nulla congue augue, quis molestie augue libero ac tellus. Sed quis consequat lorem, id sodales libero. Praesent imperdiet sagittis fermentum. Praesent condimentum nulla non lacus hendrerit lobortis. Nam sodales velit at augue bibendum ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In tincidunt, nulla vel ultricies ornare, ipsum odio dignissim lacus, id tincidunt enim libero vehicula augue.",
       "authorship": "Lorem ipsum",
       "model": "model3"
-    },
-    {
-      "id": 4,
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum",
-      "authorship": "Lorem ipsum",
-      "model": "model1"
-    },
-    {
-      "content": "daeadasdwadsadasdsadasdasdasdasdasdasdasasdasdasdasdasdasdasdasdasdasasdasda",
-      "authorship": "Dev21312",
-      "model": "model2",
-      "id": 5
     }
   ]
 }
